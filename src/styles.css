@@ -1,0 +1,67 @@
+body {
+  background: rgba(206, 38, 228, 0.527);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 40px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border: 5px rgb(0, 0, 0) solid;
+}
+
+.search-div {
+  position: absolute;
+  left: 45%;
+  bottom: -5%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  padding: 20px 40px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.icon {
+  margin-left: -45px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(255, 57, 90);
+}
+
+.gif {
+  position: absolute;
+  width: 280px;
+  height: 400px;
+  background: rgb(243, 207, 207);
+  bottom: 75px;
+  right: 10px;
+  border: 1px solid black;
+  display: none;
+  transition: 600ms;
+  overflow-y: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+}
+img {
+  width: 90px;
+  height: 95px;
+  cursor: pointer;
+}
+
+.img-chat {
+  width: 100%;
+  height: auto;
+}
